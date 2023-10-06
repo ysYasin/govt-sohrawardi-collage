@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.carasolmg {
+    background: aqua;
+    width: 100%;
+    height: 76.5vh;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.carasolmg img {
+    width: 100%;
+    background-position: sticky;
+}
+
+.carosel-main-body {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(264deg, #1b54543d, #091f09fa);
+    z-index: 8;
+}
+
+.search-bar {
+    width: 35%;
+    text-align: center;
+    z-index: 999;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.5rem;
+    margin: 1rem auto;
+    border: navy;
+    outline: none;
+    padding-right: 4rem;
+    z-index: 1009;
+}
+
+.search-placeHolder {
+    background: #0000007d;
+    padding: 0.9rem;
+    border: none;
+    outline: none;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    top: 18%;
+    left: 90.9%;
+    color: aliceblue;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.title h1 {
+    font-size: 5rem
+}
+
+.title h2 {
+    font-size: 4rem;
+}
+
+@media only screen and (max-width:688px) {
+    .carasolmg {
+        height: auto;
+    }
+
+    .search-bar {
+        width: 60%;
+    }
+
+    .title h1 {
+        font-size: 2rem
+    }
+
+    .title h2 {
+        font-size: 2rem;
+    }
+
+    .search-placeHolder {
+        left: 83%;
+    }
+}

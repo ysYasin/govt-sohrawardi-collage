@@ -1,0 +1,33 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.head-ancor a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.05rem;
+    padding: 0.5rem 1rem;
+}
+
+.head-ancor a:hover {
+    background: #03030374;
+}
+
+.ico {
+    width: 20px;
+    color: aliceblue;
+
+}
+
+
+@media only screen and (max-width:688px) {
+    .top-header-mobile {
+        display: none !important;
+    }
+
+    .header {
+        position: relative !important;
+    }
+}

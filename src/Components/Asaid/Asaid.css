@@ -1,0 +1,18 @@
+.asaid {
+    background: #47f77c8a;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+.show-notice {
+    border: 1px solid gray;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:688px) {
+    .asaid {
+        display: none;
+    }
+}

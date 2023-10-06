@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&family=Rubik&display=swap');
+
+.img-au {
+    width: 80%;
+    height: 60vh;
+    margin: 2rem auto;
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: -4px -3px 115px -24px rgba(87, 86, 86, 0.48);
+    -webkit-box-shadow: -4px -3px 115px -24px rgba(87, 86, 86, 0.48);
+    -moz-box-shadow: -4px -3px 115px -24px rgba(87, 86, 86, 0.48);
+    margin-bottom: 2rem;
+}
+
+.img-au img {
+    width: 100%;
+}
+
+.aboutus h1 {
+    font-size: 3rem;
+    margin: 4rem;
+    font-family: 'Preahvihear', sans-serif;
+    border-bottom: 1px solid gray;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 3rem;
+}
+
+.pharagraps p {
+    text-align: justify;
+}
+
+@media only screen and (max-width:688px) {
+    .img-au img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .layout {
+        grid-template-columns: 1fr;
+    }
+}

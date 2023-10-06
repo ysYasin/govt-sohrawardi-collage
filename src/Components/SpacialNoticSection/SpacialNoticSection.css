@@ -1,0 +1,49 @@
+.SpacialNoticSection {
+    font-size: 4rem;
+    width: 100%;
+    padding: 4rem 2rem;
+    background: #f7ffa46e;
+}
+
+.SpacialNoticBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.notic {
+    border: 1px solid #aeb65a6e;
+    border-radius: 9px;
+    box-shadow: 4px 1px 32px -2px rgba(153, 173, 50, 0.3);
+    -webkit-box-shadow: 4px 1px 32px -2px rgba(153, 173, 50, 0.3);
+    -moz-box-shadow: 4px 1px 32px -2px rgba(153, 173, 50, 0.3);
+}
+
+.img {
+    width: 95%;
+    cursor: pointer;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 9px;
+    margin: 0.5rem auto;
+}
+
+.img img {
+    width: 100%;
+    border-radius: 9px;
+    transition: all 0.4s ease-in;
+    overflow: hidden;
+}
+
+.img:hover img {
+    transform: scale(1.05);
+    overflow: hidden;
+}
+
+@media only screen and (max-width:688px) {
+    .SpacialNoticBody {
+        flex-direction: column;
+
+    }
+}
